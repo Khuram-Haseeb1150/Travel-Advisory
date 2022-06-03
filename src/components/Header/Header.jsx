@@ -32,7 +32,7 @@ const Header = ({ setCoordinates }) => {
 
         <Box display="flex">
           <Typography variant="h6" className={classes.title}>
-            Explore new places
+            Explore new place
           </Typography>
           <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
             <div className={classes.search}>
